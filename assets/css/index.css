@@ -119,6 +119,9 @@
           * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container img {
             height: 15vh;
             width: 40%; }
+            @media (max-width: 767px) {
+              * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container img {
+                width: 80%; } }
           * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container h4 {
             position: absolute;
             top: 50%;
