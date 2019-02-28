@@ -121,7 +121,8 @@
             width: 40%; }
             @media (max-width: 767px) {
               * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container img {
-                width: 80%; } }
+                width: 70%;
+                height: 12vh; } }
           * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container h4 {
             position: absolute;
             top: 50%;

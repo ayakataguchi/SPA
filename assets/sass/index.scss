@@ -172,7 +172,8 @@ $base-font-family: 'Architects Daughter', cursive;
 
                             img{
                                 @media (max-width: 767px){
-                                    width: 80%;
+                                    width: 70%;
+                                    height: 12vh;
                                 }
 
                                 height: 15vh;
