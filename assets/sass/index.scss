@@ -1,0 +1,394 @@
+$base-font-family: 'Architects Daughter', cursive;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    body{
+        position: relative; 
+
+        main{
+
+            section.intro-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 8vh;
+                height: 100vh;
+                text-align: center;
+                background-color: #000;
+
+                .intro-text{
+
+                    animation: fadeIn 5s ease 0s 1 normal;
+                    -webkit-animation: fadeIn 5s ease 0s 1 normal;
+
+                    @keyframes fadeIn {
+                        0% {opacity: 0}
+                        100% {opacity: 1}
+                    }
+                    
+                    @-webkit-keyframes fadeIn {
+                        0% {opacity: 0}
+                        100% {opacity: 1}
+                    }
+
+                    h2.hello{
+
+                        @media (max-width: 767px){
+                            font-size: 4rem;
+                        }
+
+                        color:#E9425B;
+                        font-size: 8rem;
+                        font-weight: 700;
+                    }
+ 
+                    h1{
+                        @media (max-width: 767px){
+                            font-size: 2.8rem;
+                        }
+
+                        color:#E94680;
+                        font-size: 5.6rem;
+                        font-weight: 300;
+                    }
+    
+                    h3.job-title{
+                        @media (max-width: 767px){
+                            font-size: 0.9rem;
+                        }
+
+                        color:#C35CFE;
+                        font-size: 1.8rem;
+                        font-weight: 300;
+                        margin: 12% auto;
+                    }
+    
+                    h4.portfolio{
+                        @media (max-width: 767px){
+                            font-size: 0.9rem;
+                        }
+
+                        color:#587DF9;
+                        font-size: 1.75rem;
+                        font-weight: 300;
+                    }
+    
+                    h4.code-design{
+                        @media (max-width: 767px){
+                            font-size: 1.6rem;
+                        }
+
+                        color:#325DEC;
+                        font-size: 3.2rem;
+                        font-weight: 700;
+                        margin-top: -2%;
+    
+                        span{
+                            color: #587DF9;
+                            font-weight: normal;
+                        }
+                    }
+    
+                    h4.country{
+                        @media (max-width: 767px){
+                            font-size: 2.2rem;
+                        }
+
+                        color:#587DF9;
+                        font-size: 4.4rem;
+                        font-weight: 300;
+                        margin-top: -5%;
+                    }
+                }
+            }  
+            
+            section.work-container{
+                position: relative;
+                height: 100vh;
+                background-color: #14234c;
+                text-align: center;
+
+                img{
+                    height: 100vh;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+                div.work-bg-color{
+                    position: absolute;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    height: 100vh;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(20, 35, 76, 0.8);
+                    transition: all 3s ease;
+                    opacity: 1;
+
+                    div.work-contents-container{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+
+                        h3{
+                            @media (max-width: 767px){
+                                font-size: 2rem;
+                            }
+
+                            color:#E94680;
+                            font-size: 4rem;
+                            font-family: $base-font-family;
+                            font-family: 'Raleway', sans-serif;
+                            font-weight: 900;
+                            margin-bottom: 3%;
+
+                            span{
+
+                                &:nth-of-type(1){
+                                    color: #E9425B;
+                                }
+
+                                &:nth-of-type(2){
+                                    color: #f441a0;
+                                }
+
+                                &:nth-of-type(3){   
+                                    color: #e842f4;
+                                }
+
+                                &:nth-of-type(4){
+                                    color: #C35CFE;
+                                }
+                            }
+                        }
+
+                        div.projects-container{
+
+                            img{
+                            height: 15vh;
+                            width: 40%;
+                            }
+
+                            h4{
+                                @media (max-width: 767px){
+                                    font-size: 0.6rem;
+                                }
+
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                color: #fff;
+                                font-family: 'Roboto', sans-serif;
+                                font-weight: 700;
+                                font-size: 1.2rem;
+                            }
+
+                            h5{
+                                @media (max-width: 767px){
+                                    font-size: 0.5rem;
+                                }
+
+                                position: absolute;
+                                top: 70%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                color: #D3D3D3;
+                                font-weight: 100;
+                                font-family: 'Raleway', sans-serif;
+                                font-size: 1rem;
+                            }
+
+                            div.project1-container{
+                                position: relative;
+                                margin: 3% auto;
+                            }
+
+                            div.project2-container{
+
+                                position: relative;
+                                margin: 3% auto;
+                            }
+
+                            div.project3-container{
+                                position: relative;
+                                margin: 3% auto;
+                            }
+                        }
+                    }
+                }
+            }
+
+            section.skill-container{
+
+                @media (max-width: 1024px){
+                    width: 100%;
+                }
+
+                position: relative;
+                height: 100vh;
+                margin: auto;
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            section.about-container{
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                background-color: #14234c;
+                text-align: center;
+
+                img{
+                    height: 100vh;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+                div.about-bg-color{
+                    position: absolute;
+                    height: 100vh;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    background-image: linear-gradient(rgba(83, 0, 250, 0.7), rgba(0, 83, 250, 0.7), rgba(124, 63, 221, 0.7), rgba(142, 88, 236, 0.7));
+                    transition: all 3s ease;
+
+                    div.about-contents-container{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform : translate(-50%,-50%);
+
+                        h3{
+                            @media (max-width: 767px){
+                                font-size: 1.5rem;
+                            }
+
+                            font-family: $base-font-family;
+                            font-size: 3rem;
+                        }
+
+                        div.love-hate-container{
+                            display: flex;
+                            justify-content: center;
+                            width: 50%;
+                            margin: auto auto;
+                            opacity: 1;
+
+                            .fas{
+                                display: block;
+                                color: #fff;
+                                font-size: 2rem;
+                                margin: 5%;
+                            }
+
+                            p{
+                                @media (max-width: 767px){
+                                    font-size: 0.7rem;
+                                }
+
+                                color: #fff;
+                                font-size: 1.3rem;
+                                font-family: $base-font-family;
+                            }
+
+                            div.love-container{
+                                @media (max-width: 767px){
+                                    padding: 10%;
+                                }
+
+                                width: 100%;
+                                padding: 20%;
+
+                                .fa-heart{
+                                    color: #E9425B;
+                                }
+                            }
+
+                            div.hate-container{
+                                @media (max-width: 767px){
+                                    padding: 10%;
+                                }
+
+                                width: 100%;
+                                padding: 20%;
+
+                                .fa-skull{
+                                    color: #6bD275;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            section.contact-container{
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                text-align: center;
+                background-color: #000;
+
+                .sns-container{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform : translate(-50%,-50%);
+
+                    h3{
+                        @media (max-width: 767px){
+                            font-size: 1.2rem;
+                        }
+
+                        font-family: $base-font-family;
+                        color: #fff;
+                        padding-bottom: 3%;
+                    }
+
+                    .fab{
+                        @media (max-width: 767px){
+                            font-size: 2rem;
+                            letter-spacing: 1.25rem;
+                        }
+
+                        font-size: 4rem;
+                        letter-spacing: 2.5rem;
+                    }
+
+                    .fa-facebook-f{
+                        color: #E9425B;
+                    }
+
+                    .fa-github{
+                        color: #E94680;
+                    }
+
+                    .fa-linkedin-in{
+                        color:#C35CFE;
+                    }
+                }
+            }
+        }
+
+        footer{
+            text-align: center;
+            background-color: #000;
+
+            p{
+                margin: 0;
+                color: #fff;
+                font-family: $base-font-family;
+                font-family: 'Raleway', sans-serif;
+            }
+        }
+    }
+}
