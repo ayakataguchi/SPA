@@ -73,89 +73,6 @@
           @media (max-width: 767px) {
             * body main section.intro-container .intro-text h4.country {
               font-size: 2.2rem; } }
-    * body main section.work-container {
-      position: relative;
-      height: 100vh;
-      background-color: #14234c;
-      text-align: center; }
-      * body main section.work-container img {
-        height: 100vh;
-        width: 100%;
-        object-fit: cover; }
-      * body main section.work-container div.work-bg-color {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        width: 100%;
-        top: 0;
-        left: 0;
-        background-color: rgba(20, 35, 76, 0.8);
-        transition: all 3s ease;
-        opacity: 1; }
-        * body main section.work-container div.work-bg-color div.work-contents-container {
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%); }
-          * body main section.work-container div.work-bg-color div.work-contents-container h3 {
-            color: #E94680;
-            font-size: 4rem;
-            font-family: "Architects Daughter", cursive;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 900;
-            margin-bottom: 3%; }
-            @media (max-width: 767px) {
-              * body main section.work-container div.work-bg-color div.work-contents-container h3 {
-                font-size: 2rem; } }
-            * body main section.work-container div.work-bg-color div.work-contents-container h3 span:nth-of-type(1) {
-              color: #E9425B; }
-            * body main section.work-container div.work-bg-color div.work-contents-container h3 span:nth-of-type(2) {
-              color: #f441a0; }
-            * body main section.work-container div.work-bg-color div.work-contents-container h3 span:nth-of-type(3) {
-              color: #e842f4; }
-            * body main section.work-container div.work-bg-color div.work-contents-container h3 span:nth-of-type(4) {
-              color: #C35CFE; }
-          * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container img {
-            height: 15vh;
-            width: 40%; }
-            @media (max-width: 767px) {
-              * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container img {
-                width: 70%;
-                height: 12vh; } }
-          * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container h4 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: #fff;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 700;
-            font-size: 1.2rem; }
-            @media (max-width: 767px) {
-              * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container h4 {
-                font-size: 0.6rem; } }
-          * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container h5 {
-            position: absolute;
-            top: 70%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: #D3D3D3;
-            font-weight: 100;
-            font-family: 'Raleway', sans-serif;
-            font-size: 1rem; }
-            @media (max-width: 767px) {
-              * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container h5 {
-                font-size: 0.5rem; } }
-          * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container div.project1-container {
-            position: relative;
-            margin: 3% auto; }
-          * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container div.project2-container {
-            position: relative;
-            margin: 3% auto; }
-          * body main section.work-container div.work-bg-color div.work-contents-container div.projects-container div.project3-container {
-            position: relative;
-            margin: 3% auto; }
     * body main section.skill-container {
       position: relative;
       height: 100vh;
@@ -177,59 +94,6 @@
         height: 100vh;
         width: 100%;
         object-fit: cover; }
-      * body main section.about-container div.about-bg-color {
-        position: absolute;
-        height: 100vh;
-        width: 100%;
-        top: 0;
-        left: 0;
-        background-image: linear-gradient(rgba(83, 0, 250, 0.7), rgba(0, 83, 250, 0.7), rgba(124, 63, 221, 0.7), rgba(142, 88, 236, 0.7));
-        transition: all 3s ease; }
-        * body main section.about-container div.about-bg-color div.about-contents-container {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%); }
-          * body main section.about-container div.about-bg-color div.about-contents-container h3 {
-            font-family: "Architects Daughter", cursive;
-            font-size: 3rem; }
-            @media (max-width: 767px) {
-              * body main section.about-container div.about-bg-color div.about-contents-container h3 {
-                font-size: 1.5rem; } }
-          * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container {
-            display: flex;
-            justify-content: center;
-            width: 50%;
-            margin: auto auto;
-            opacity: 1; }
-            * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container .fas {
-              display: block;
-              color: #fff;
-              font-size: 2rem;
-              margin: 5%; }
-            * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container p {
-              color: #fff;
-              font-size: 1.3rem;
-              font-family: "Architects Daughter", cursive; }
-              @media (max-width: 767px) {
-                * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container p {
-                  font-size: 0.7rem; } }
-            * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container div.love-container {
-              width: 100%;
-              padding: 20%; }
-              @media (max-width: 767px) {
-                * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container div.love-container {
-                  padding: 10%; } }
-              * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container div.love-container .fa-heart {
-                color: #E9425B; }
-            * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container div.hate-container {
-              width: 100%;
-              padding: 20%; }
-              @media (max-width: 767px) {
-                * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container div.hate-container {
-                  padding: 10%; } }
-              * body main section.about-container div.about-bg-color div.about-contents-container div.love-hate-container div.hate-container .fa-skull {
-                color: #6bD275; }
     * body main section.contact-container {
       position: relative;
       width: 100%;
@@ -248,19 +112,27 @@
           @media (max-width: 767px) {
             * body main section.contact-container .sns-container h3 {
               font-size: 1.2rem; } }
-        * body main section.contact-container .sns-container .fab {
-          font-size: 4rem;
-          letter-spacing: 2.5rem; }
-          @media (max-width: 767px) {
-            * body main section.contact-container .sns-container .fab {
-              font-size: 2rem;
-              letter-spacing: 1.25rem; } }
-        * body main section.contact-container .sns-container .fa-facebook-f {
-          color: #E9425B; }
-        * body main section.contact-container .sns-container .fa-github {
-          color: #E94680; }
-        * body main section.contact-container .sns-container .fa-linkedin-in {
-          color: #C35CFE; }
+        * body main section.contact-container .sns-container .fa-wrapper {
+          display: flex;
+          justify-content: center; }
+          * body main section.contact-container .sns-container .fa-wrapper a {
+            padding: 7%; }
+            * body main section.contact-container .sns-container .fa-wrapper a:hover {
+              text-decoration: none; }
+            * body main section.contact-container .sns-container .fa-wrapper a .fab {
+              font-size: 4rem; }
+              @media (max-width: 767px) {
+                * body main section.contact-container .sns-container .fa-wrapper a .fab {
+                  font-size: 2rem; } }
+            * body main section.contact-container .sns-container .fa-wrapper a .fa-facebook-f {
+              color: #E9425B;
+              display: block; }
+            * body main section.contact-container .sns-container .fa-wrapper a .fa-github {
+              color: #E94680;
+              display: block; }
+            * body main section.contact-container .sns-container .fa-wrapper a .fa-linkedin-in {
+              color: #C35CFE;
+              display: block; }
     * body footer {
       text-align: center;
       background-color: #000; }
